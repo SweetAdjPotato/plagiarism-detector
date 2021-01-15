@@ -53,7 +53,7 @@ For this project, actually a sklearn model is sufficient enough to get a good ac
 
 I also implemented a simple PyTorch neural network model to practice my model deployment skills. The model has with two hidden layers with dimensions 16 and 5, and after each layer I set a 20% dropout to prevent overfitting. The accuracy score on the test data is 1. The results is gievn below:
 
-<img src="notebook_ims/pytorch_nn_result.png" style="width: 100px;">
+<img src="notebook_ims/pytorch_nn_result.png" width: "100px">
 
 ## Licensing, Authors, and Acknowledgements<a name="licensing"></a>
 
