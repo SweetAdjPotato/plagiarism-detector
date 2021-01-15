@@ -19,28 +19,32 @@ In this project, a plagiarism detector is deployed using Amazon SageMaker and Py
 
 ## File Descriptions <a name="files"></a>
 
-#### Folders: 
+### Folders: 
 **data:** contains the original data [Corpus of Plagiarised Short Answers](https://ir.shef.ac.uk/cloughie/resources/plagiarism_corpus.html)
 **notebook_ims:** contains the images used in the notebooks
 **plagiarism_data:** contains the preprocessed and cleaned data with selected engineered features
 **source_pytorch:** contains the model and train functions when using a pytroch model
 **source_sklearn:** contains the train fuctions when using a sklearn model
 
-#### Files:
+### Files:
 **Notebook 1: Data Exploration**
 * Load in the corpus of plagiarism text data.
 * Explore the existing data features and the data distribution.
+
 **Notebook 2: Feature Engineering**
 * Clean and pre-process the text data.
 * Define features for comparing the similarity of an answer text and a source text, and extract similarity features.
 * Select "good" features, by analyzing the correlations between different features.
 * Create train/test `.csv` files that hold the relevant features and class labels for train/test data points.
+
 **Notebook 3: Train and Deploy Your Model in SageMaker**
 * Upload train/test feature data to S3.
 * Define a binary classification model and a training script.
 * Train the model and deploy it using SageMaker.
 * Evaluate the deployed classifier.
+
 **helpers.py: functions used in the notebooks**
+
 **problem_unittests.py: unit tests for the notebooks**
 
 ## Results<a name="results"></a>
@@ -49,7 +53,7 @@ For this project, actually a sklearn model is sufficient enough to get a good ac
 
 I also implemented a simple PyTorch neural network model to practice my model deployment skills. The model has with two hidden layers with dimensions 16 and 5, and after each layer I set a 20% dropout to prevent overfitting. The accuracy score on the test data is 1. The results is gievn below:
 
-<img src="notebook_ims/pytorch_nn_result.png">
+<img src="notebook_ims/pytorch_nn_result.png" style="width: 200px, length:200px">
 
 ## Licensing, Authors, and Acknowledgements<a name="licensing"></a>
 
