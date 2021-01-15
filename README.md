@@ -21,9 +21,13 @@ In this project, a plagiarism detector is deployed using Amazon SageMaker and Py
 
 ### Folders: 
 **data:** contains the original data [Corpus of Plagiarised Short Answers](https://ir.shef.ac.uk/cloughie/resources/plagiarism_corpus.html)
+
 **notebook_ims:** contains the images used in the notebooks
+
 **plagiarism_data:** contains the preprocessed and cleaned data with selected engineered features
+
 **source_pytorch:** contains the model and train functions when using a pytroch model
+
 **source_sklearn:** contains the train fuctions when using a sklearn model
 
 ### Files:
