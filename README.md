@@ -1,5 +1,4 @@
-# Plagiarism Project, Machine Learning Deployment
-
+# Plagiarism Detector Modeling and Deployment using SageMaker
 ## Table of Contents
 
 1. [Project Overview](#project_overview)
